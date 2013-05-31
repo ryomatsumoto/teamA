@@ -1,0 +1,207 @@
+﻿@charset "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	color: #50504F;
+	background: url('image/bg/wrap_bg.png');
+}
+#wrap {
+	width: 960px;
+	margin: 0px auto;
+}
+
+/*----------------ヘッダー--------------*/
+#header_wrap {
+	height: 150px;
+	background: url('image/bg/header_bg.png') repeat-x;
+}
+#header {
+	width: 960px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+#header h1 {
+	margin: 15px 0px 0px 10px;
+	float: left;
+}
+#header ul {
+	float: right;
+	margin: 70px 0px 0px 0px;
+	list-style: none;
+}
+#header li{
+	margin: 0px 15px;
+	float: left;
+}
+#header dl {
+	width: 170px;
+	height: 26px;
+	float: right;
+	clear: right;
+	margin-top: 15px;
+}
+#header dt {
+	float: left;
+	margin-right: 10px;
+}
+
+.hd_txt {
+	font-size: 0.8em;
+	font-family: Impact,Charcoal;
+}
+/*--------------グローバルナビ--------------*/
+#g_navi {
+	overflow: hidden;
+	width: 950px;
+	margin: 0px auto;
+}
+#g_navi ul {
+	list-style: none;
+}
+#g_navi li {
+	float: left;
+}
+/*--------------共通--------------*/
+#company,#rent,#topics,#contact {
+	margin-top:70px;
+	margin-left:60px;
+}
+/*--------------会社概要--------------*/
+
+div#company{
+	color: #50504f;
+	
+}
+div#company dl{
+	color: 50504f;
+	font-size: 0.9em;
+	width: 700px;
+	margin: 0px auto;
+	padding: 30px 100px;
+	margin-top:40px;
+	line-height: 2em;
+	border: 1px solid #DCDCDC;
+	background: #fff;
+}
+#company dt {
+	text-align: center;
+	width: 150px;
+	float: left;
+	clear: both;
+	border-right: 1px inset #ddd;
+	border-bottom: 2px inset #aaa;
+	background: #fff;
+
+}
+
+#company dd {
+	text-align: left;
+	padding-left: 30px;
+	margin: 0px 0px 10px 180px;
+	border-right: 1px inset #ddd;
+	border-bottom: 2px inset #aaa;
+	background: #fff;
+}
+
+div#company p {
+	line-height: 200%;
+}
+
+/*--------------物件情報--------------*/
+#rent {
+	clear: both;
+	padding-top: 40px;
+}
+div#rent h3 {
+	padding-left: 20px;
+	margin-top: 40px;
+	background: url('image/bukken_mark.png') no-repeat left
+}
+
+.bigphoto {
+	margin: 0px 19px 19px 0px;
+}
+
+.smallphoto {
+	margin: 0px 19px 0px 0px;
+}
+
+.button{
+	margin:20px 0px 0px 60px;
+	clear:both;
+}
+div.rent_img{
+	margin-top:5px;
+	float:left;
+}
+div.rent_shousai{
+	margin-top:5px;
+	float:right;
+}
+
+div.rent_shousai>p{
+	margin-bottom:19px;
+}
+
+.bukken{
+	width:825px;
+}
+/*--------------画像をULで--------------*/
+
+div.bukken li{
+	list-style:none;
+	float:left;
+}
+
+
+/*--------------お役立ち情報--------------*/
+
+/*--------------お問い合わせ--------------*/
+
+/*--------------フッター--------------*/
+#footer_wrap {
+	height: 120px;
+	margin-top: 100px;
+	background: url('image/bg/footer_bg.png') repeat-x;
+}
+#footer {
+	width: 960px;
+	margin: 0px auto;
+}
+#footer ol {
+	list-style: none;
+	font-size: 0.8em;
+	padding-top: 10px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+#footer ol li {
+	padding: 0px 40px;
+	margin-top: 10px;
+	border-right: 1px solid #50504f;
+	float: left;
+	vertical-align: top;
+}
+#footer ol li:first-child {
+	border-left: 1px solid #50504f;
+}
+#footer ol img {
+	margin-left: 5px;
+}
+
+#footer ul {
+	margin: 60px 0px 0px 0px;
+	list-style: none;
+	float: left;
+}
+#footer  ul li{
+	margin-right: 40px;
+	float: left;
+	vertical-align: top;
+}
+.contact {
+	margin: 15px 15px 0px 0px;
+	float: right;
+}

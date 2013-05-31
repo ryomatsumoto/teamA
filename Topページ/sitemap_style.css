@@ -1,0 +1,123 @@
+﻿@charset "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #F1F9FF;
+}
+#wrap {
+	width: 960px;
+	margin: 0px auto;
+}
+#wrap {
+	overflow: hidden;
+}
+#header {
+	overflow: hidden;
+}
+/*----------------ヘッダー--------------*/
+#header h1 {
+	margin: 25px 0px 0px 40px;
+	float: left;
+}
+#header ul {
+	float: right;
+	margin: 30px 70px 0px 0px;
+	list-style: none;
+}
+#header li{
+	padding-left: 10px;
+	margin: 0px 15px;
+	background: url('image/list_img.png') no-repeat left;
+	float: left;
+}
+#header dl {
+	width: 200px;
+	height: 26px;
+	float: right;
+	clear: right;
+	margin: 20px 35px 0px 0px;
+}
+#header dt {
+	float: left;
+	clear: both;
+	margin-right: 15px;
+}
+.hd_txt {
+	font-size: 0.7em;
+	font-family: Impact,Charcoal;
+	margin-top: 5px;
+}
+/*--------------グローバルナビ--------------*/
+#g_navi {
+	overflow: hidden;
+}
+#g_navi ul {
+	margin-top: 40px;
+	list-style: none;
+}
+#g_navi li {
+	float: left;
+}
+/*--------------サイトマップ--------------*/
+
+div#sitemap {
+	height: 600px;
+}
+
+
+h2 {
+	margin-top: 75px;
+	margin-left: 60px;
+}
+
+
+h3 {
+	color:#f3620c;
+	font-size:180%;
+	margin-top:30px;
+}
+
+h3 img {
+	vertical-align: text-bottom;
+}
+
+div#sitemap1 {
+	margin-top: 10px;
+	margin-left: 100px;
+	width: 260px;
+	float: left;
+}
+
+div#sitemap1 ul {
+	color:#f3620c;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 80px;
+	list-style-image: url("./image/list_mark.png");
+}
+
+
+
+div#sitemap2 {
+	margin-top: 10px;
+	float: left;
+}
+
+
+.ichiran{
+	list-style-image: url("./image/list_img2.png");
+	padding-bottom: 20px;
+}
+.list {
+	padding: 10px 0px 10px 25px;
+	background: url('image/list_mark.png') no-repeat left;
+}
+
+
+
+/*--------------フッター--------------*/
+#footer {
+	height: 100px;
+	background: url('image/footer_bg.png') repeat-x;}
