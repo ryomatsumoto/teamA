@@ -144,24 +144,13 @@ div.small_photo2 li{
 	color:#FFFFFF;
 }
 #map_canvas{
-	margin-top:1px;
-	border:solid 10px #5257E4;
+	margin:3px 0px 10px 20px;
 	width:580px;
 	height:490px;
 	float:right;
 }
 
 
-/*
-#access-bar{
-	padding:0;
-	margin-top:15px;
-	width:570px;
-	height:28px;
-/*	background:#000000;*/
-	clear:both;
-	margin-left:80px;
-}
 #mapul1 a{
 	color:#ffffff;
 	width:220px;
@@ -173,45 +162,41 @@ div.small_photo2 li{
 	height:90px;
 }
 .btn{
-	width:220px;
-	height:38px;
+	min-width:220px;
+	min-height:40px;
 	margin:0px;
 	padding:0px;
 }
-#mapul2{
-	margin: 0;
-	padding: 0;
-	list-style-type:none;
-	color:#FFFFFF;
+#mapbtn01{
+	background: url("../image/button/supermarket.png") no-repeat;
 }
-#mapul2 a{
-	color:#ffffff;
-	width:220px;
-	height:45px;
-	display:block;
+#mapbtn02{
+	background: url("../image/button/station.png") no-repeat;
 }
-#mapul2 li{
-	width:220px;
-	height:45px;
+#mapbtn03{
+	background: url("../image/button/library.png") no-repeat;
 }
-#mapul3{
-	margin: 0;
-	padding: 0;
-	list-style-type:none;
-	color:#FFFFFF;
+#mapbtn04{
+	background: url("../image/button/police.png") no-repeat;
 }
-#mapul3 a{
-	color:#ffffff;
-	width:220px;
-	height:40px;
-	display:block;
+#mapbtn05{
+	background: url("../image/button/clinic.png") no-repeat;
 }
-#mapul3 li{
-	width:220px;
-	height:45px;
+#mapbtn06{
+	background: url("../image/button/sports_center.png") no-repeat;
 }
-
-
+#mapbtn07{
+	background: url("../image/button/school.png") no-repeat;
+}
+#mapbtn08{
+	background: url("../image/button/restaurant.png") no-repeat;
+}
+#mapbtn09{
+	background: url("../image/button/sweets.png") no-repeat;
+}
+#mapbtn10{
+	background: url("../image/button/park.png") no-repeat;
+}
 
 /*--------------お問い合わせ--------------*/
 

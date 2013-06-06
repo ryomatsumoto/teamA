@@ -7,10 +7,11 @@
 
 <!---------GOOGLE MAPS API----------------------------------------------------------------------------------------->
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/royal_map.js"></script>
 <!-------------------------------------------------------------------------------------------------->
 	</head>
-	<body onload="initialize()">
+	<body>
 		<div id="wrap"><!--wrap-->
 <!-------------------------------------------------------------------------------------------------->
 			
@@ -78,30 +79,27 @@
 					</div>
 
 <!-- GOOGLE MAPS API   -->
-					<script type="text/javascript">
-					initialize();
-					</script>
 
 						<div id="map_container">
 							<div id="access-bar">
 								<form>
 									<ul id="mapul1">
 										<li><img src="image/button/kinrin_info.png" alt="近隣情報"></li>
-										<li><input id="mapbtn01" class="btn" type="image" src="image/button/supermarket.png"></li>
-										<li><input id="mapbtn02" class="btn" type="image" src="image/button/station.png"></li>
-										<li><input id="mapbtn03" class="btn" type="image" src="image/button/library.png"></li>
-										<li><input id="mapbtn04" class="btn" type="image" src="image/button/police.png"></li>
-										<li><input id="mapbtn05" class="btn" type="image" src="image/button/clinic.png"></li>
-										<li><input id="mapbtn06" class="btn" type="image" src="image/button/sports_center.png"></li>
-										<li><input id="mapbtn07" class="btn" type="image" src="image/button/school.png"></li>
-										<li><input id="mapbtn08" class="btn" type="image" src="image/button/restaurant.png"></li>
-										<li><input id="mapbtn09" class="btn" type="image" src="image/button/sweets.png"></li>
-										<li><input id="mapbtn10" class="btn" type="image" src="image/button/park.png"></li>
+										<li><input id="mapbtn01" class="btn" type="button" value="" onclick="addMarker()"></li>
+										<li><input id="mapbtn02" class="btn" type="button" value=""></li>
+										<li><input id="mapbtn03" class="btn" type="button" value=""></li>
+										<li><input id="mapbtn04" class="btn" type="button" value=""></li>
+										<li><input id="mapbtn05" class="btn" type="button" value=""></li>
+										<li><input id="mapbtn06" class="btn" type="button" value=""></li>
+										<li><input id="mapbtn07" class="btn" type="button" value=""></li>
+										<li><input id="mapbtn08" class="btn" type="button" value=""></li>
+										<li><input id="mapbtn09" class="btn" type="button" value=""></li>
+										<li><input id="mapbtn10" class="btn" type="button" value=""></li>
 									</ul>
 								</form>
 							</div>
 
-							<div id="map_canvas"></div>
+							<div id="gmap" style="margin-top:1px;	border:solid 10px #5257E4; 	width:580px; 	height:490px; float:right;"></div>
 						</div>
 
 			</div><!--/rent-->
