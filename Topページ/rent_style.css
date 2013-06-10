@@ -169,34 +169,34 @@ div.small_photo2 li{
 	padding:0px;
 }
 #mapbtn01{
-	background: url("../image/button/supermarket.png") no-repeat;
+	background: url("image/button/supermarket.png") no-repeat;
 }
 #mapbtn02{
-	background: url("../image/button/station.png") no-repeat;
+	background: url("image/button/station.png") no-repeat;
 }
 #mapbtn03{
-	background: url("../image/button/library.png") no-repeat;
+	background: url("image/button/library.png") no-repeat;
 }
 #mapbtn04{
-	background: url("../image/button/police.png") no-repeat;
+	background: url("image/button/police.png") no-repeat;
 }
 #mapbtn05{
-	background: url("../image/button/clinic.png") no-repeat;
+	background: url("image/button/clinic.png") no-repeat;
 }
 #mapbtn06{
-	background: url("../image/button/sports_center.png") no-repeat;
+	background: url("image/button/sports_center.png") no-repeat;
 }
 #mapbtn07{
-	background: url("../image/button/school.png") no-repeat;
+	background: url("image/button/school.png") no-repeat;
 }
 #mapbtn08{
-	background: url("../image/button/restaurant.png") no-repeat;
+	background: url("image/button/restaurant.png") no-repeat;
 }
 #mapbtn09{
-	background: url("../image/button/sweets.png") no-repeat;
+	background: url("image/button/sweets.png") no-repeat;
 }
 #mapbtn10{
-	background: url("../image/button/park.png") no-repeat;
+	background: url("image/button/park.png") no-repeat;
 }
 
 /*--------------お問い合わせ--------------*/
@@ -204,4 +204,4 @@ div.small_photo2 li{
 /*--------------フッター--------------*/
 #footer {
 	height: 100px;
-	background: url('../image/footer_bg.png') repeat-x;}
+	background: url('image/footer_bg.png') repeat-x;}
