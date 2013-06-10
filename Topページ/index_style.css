@@ -114,10 +114,15 @@ div#company p {
 	clear: both;
 	padding-top: 40px;
 }
-div#rent h3 {
-	padding-left: 20px;
+#rent h2 {
+	padding:7px 0px 5px 40px;
 	margin-top: 40px;
-	background: url('image/bukken_mark.png') no-repeat left
+	background: url('image/icon/icon2.png') no-repeat left
+}
+div#rent h3 {
+	padding-left: 10px;
+	margin-top: 40px;
+	background: url('image/icon/bukken_mark.png') no-repeat left
 }
 
 .bigphoto {
@@ -143,7 +148,9 @@ div.rent_shousai{
 	font-size:17px;
 }
 
-div.rent_shousai>p{
+div.rent_shousai p:first-child {
+	font-size: 0.9em;
+	line-height: 1.5em;
 	margin-bottom:20px;
 }
 
