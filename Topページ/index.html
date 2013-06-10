@@ -8,7 +8,7 @@
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/jquery.corner.js"></script>
 		<script type="text/javascript" src="js/index_script.js"></script>
-	</head>
+		<script type="text/javascript" src="js/jquery.SmoothScroll.js"></script>	</head>
 	<body>
 <!-------------------------------------------------------------------------------------------------->
 		<div id="header_wrap">
@@ -32,11 +32,11 @@
 		<div id="wrap"><!--wrap-->
 			<div id="g_navi"><!--g_navi-->
 				<ul>
-					<li><img src="image/navi/home_button.png" alt="ホーム" id="home_button"></li>
-					<li><img src="image/navi/company_button.png" alt="会社概要" id="company_button"></li>
-					<li><img src="image/navi/rent_button.png" alt="物件一覧" id="rent_button"></li>
-					<li><img src="image/navi/topics_button.png" alt="お役立ち情報" id="topics_button"></li>
-					<li><img src="image/navi/contact_button.png" alt="お問い合わせ" id="contact_button"></li>
+					<li><a href="#header"><img src="image/navi/home_button.png" alt="ホーム" id="home_button"></a></li>
+					<li><a href="#company"><img src="image/navi/company_button.png" alt="会社概要" id="company_button"></a></li>
+					<li><a href="#rent"><img src="image/navi/rent_button.png" alt="物件一覧" id="rent_button"></a></li>
+					<li><a href="#topics"><img src="image/navi/topics_button.png" alt="お役立ち情報" id="topics_button"></a></li>
+					<li><a href="#contact"><img src="image/navi/contact_button.png" alt="お問い合わせ" id="contact_button"></a></li>
 				</ul>
 			</div><!--/g_navi-->
 
@@ -88,7 +88,7 @@
 							</div>
 
 							<div class="rent_shousai">
-								<p><img src="image/bukken_text.png" alt="text"></p>
+								<p>建物１階テナントに歯科医院・耳鼻科・薬局があります。<br>近隣にはスーパー等が充実しており、利便性に優れた物件です。周辺には公園も多数あり、緑あふれる環境となっております。<br>最寄駅からも徒歩１０分で、通勤・通学にも便利です。JR大阪駅まで乗り換えなしで移動できます。</p>
 								<p><img src="image/photo/madori.png" alt="" class="madori"></p>
 							</div>
 
@@ -115,7 +115,7 @@
 							</div>
 
 							<div class="rent_shousai">
-								<p><img src="image/bukken_text.png" alt="text"></p>
+								<p>大阪市中央卸売市場が近くにあり、新鮮なお食事がすぐお近くに！<br>近隣には大型スーパー（ライフ）もある為、お買いものも楽々です。大阪環状線・なんば線と乗り換えにも便利です。JR大阪駅までも乗り換えなしで移動できます。</p>
 								<p><img src="image/photo/madori.png" alt="" class="madori"></p>
 							</div>
 
@@ -142,7 +142,7 @@
 							</div>
 
 							<div class="rent_shousai">
-								<p><img src="image/bukken_text.png" alt="text"></p>
+								<p>当社賃貸物件ロイヤルユタカに隣接する駐車場。<br>屋根、夜間照明付きで雨の日や夜でも安心です。<br>ファミリーカーも楽々駐車出来ます。</p>
 								<p><img src="image/photo/madori.png" alt="" class="madori"></p>
 							</div>
 
@@ -171,19 +171,39 @@
 		<div id="footer_wrap">
 			<div id="footer"><!--footer-->
 				<ol>
-					<li>ホーム</li>
-					<li>会社概要</li>
-					<li>物件一覧</li>
-					<li>お役立ち情報</li>
-					<li>お問い合わせ</li>
-					<li>Blog</li>
+					<li class="headline">ホーム</li>
+				</ol>
+
+				<ol>
+					<li class="headline">会社概要</li>
+				</ol>
+
+				<ol>
+					<li class="headline">物件一覧</li>
+					<li>ロイヤルユタカ</li>
+					<li>My2レジデンス</li>
+					<li>モータープール花川</li>
+				</ol>
+
+				<ol>
+					<li class="headline">お役立ち情報</li>
+					<li>新着情報</li>
+					<li>空き物件情報</li>
+				</ol>
+
+				<ol>
+					<li class="headline">お問い合わせ</li>
+				</ol>
+				
+				<ol>
+					<li class="headline">Blog</li>
 					<li>Facebook</li>
 				</ol>
-				<ul>
-					<li class="hd_txt">サイトマップ</li>
-					<li class="hd_txt">プライバシーポリシー</li>
-				</ul>
-				<p class="contact"><img src="image/navi/contact.png" alt="お問い合わせ電話番号"></p>
+
+
+
+				<p class="contact"><img src="image/icon/contact_ppj.png" alt="お問い合わせ電話番号"></p>
+				<p class="copyright">&copy;&nbsp;Royal&nbsp;Yutaka&nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
 			</div><!--/footer-->
 		</div>
 <!-------------------------------------------------------------------------------------------------->
