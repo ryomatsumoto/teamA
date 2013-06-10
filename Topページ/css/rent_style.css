@@ -143,8 +143,9 @@ div.small_photo2 li{
 	list-style-type:none;
 	color:#FFFFFF;
 }
-#map_canvas{
-	margin:3px 0px 10px 20px;
+#map1{
+	margin-top:3px;
+	border:10px;
 	width:580px;
 	height:490px;
 	float:right;
