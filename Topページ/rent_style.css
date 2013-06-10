@@ -70,6 +70,12 @@ body {
 	width:820px;
 	height:1550px;
 }
+
+h2 {
+	padding: 5px 0px 0px 40px;
+	background: url('image/icon/icon2.png') no-repeat left;
+}
+
 .photos{
 	width:600px;
 	height:480px;
