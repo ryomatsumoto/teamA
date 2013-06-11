@@ -9,13 +9,24 @@ body {
 }
 #wrap {
 	width: 960px;
-	margin: 0px auto;
+	margin: auto;
 }
 
 /*----------------ヘッダー--------------*/
-#header_wrap {
-	height: 150px;
+
+div#head {
+	height: 209px;
 	background: url('image/bg/header_bg.png') repeat-x;
+
+}
+
+#header_wrap {
+	background: url('image/bg/header_bg_2.png') ;
+	position:fixed;
+	top: 0px;
+	left: 50%;
+	margin-left: -475px;
+	z-index:999;
 }
 #header {
 	width: 960px;
@@ -65,8 +76,9 @@ body {
 }
 /*--------------共通--------------*/
 #company,#rent,#topics,#contact {
-	margin-top:70px;
+/*	margin-top:70px;  */
 	margin-left:60px;
+	padding-top: 250px;
 }
 /*--------------会社概要--------------*/
 
@@ -112,11 +124,11 @@ div#company p {
 /*--------------物件情報--------------*/
 #rent {
 	clear: both;
-	padding-top: 40px;
+/*	padding-top: 40px;  */
 }
 #rent h2 {
 	padding:7px 0px 5px 40px;
-	margin-top: 40px;
+/*	margin-top: 40px; */
 	background: url('image/icon/icon2.png') no-repeat left
 }
 div#rent h3 {
