@@ -11,9 +11,13 @@
 		<script type="text/javascript" src="js/jquery.SmoothScroll.js"></script>
 		<script type="text/javascript">
 			<!--
-				function link() {
-					location.href="#company";
-				}
+				$(function() {
+					$("#company_button").click(
+						function() {
+							$("#company").css("padding-top", "250px");
+						}
+					);
+				});
 			-->
 		</script>
 	</head>
@@ -39,7 +43,7 @@
 
 			<div id="g_navi"><!--g_navi-->
 				<ul>
-					<li><a href="#header"><img src="image/navi/home_button_off.png" alt="ホーム" id="home_button"></a></li>
+					<li><a href="top.html"><img src="image/navi/home_button_off.png" alt="ホーム" id="home_button"></a></li>
 					<li><a href="#company"><img src="image/navi/company_button_off.png" alt="会社概要" id="company_button"></a></li>
 					<li><a href="#rent"><img src="image/navi/rent_button_off.png" alt="物件一覧" id="rent_button"></a></li>
 					<li><a href="#topics"><img src="image/navi/topics_button_off.png" alt="お役立ち情報" id="topics_button"></a></li>
@@ -107,7 +111,7 @@
 								<p><img src="image/yutaka_madori.png" alt="" class="madori"></p>
 							</div>
 
-							<p><a href="*"><img src="image/icon/bukken_button_off.png" alt="物件詳細ボタン" class="button"></a></p>
+							<p><a href="royal_1.html"><img src="image/icon/bukken_button_off.png" alt="物件詳細ボタン" class="button"></a></p>
 
 					</div>
 
@@ -134,7 +138,7 @@
 								<p><img src="image/my2_madori.png" alt="" class="madori"></p>
 							</div>
 
-							<p><a href="*"><img src="image/icon/bukken_button_off.png" alt="物件詳細ボタン" class="button"></a></p>
+							<p><a href="my2_1.html"><img src="image/icon/bukken_button_off.png" alt="物件詳細ボタン" class="button"></a></p>
 
 					</div>
 
@@ -185,29 +189,30 @@
 <!-------------------------------------------------------------------------------------------------->
 		<div id="footer_wrap">
 			<div id="footer"><!--footer-->
+			
 				<ol>
-					<a href="top.html"><li class="headline">ホーム</li></a>
+					<li class="headline"><a href="top.html">ホーム</a></li>
 				</ol>
 
 				<ol>
-					<a href="index.html"><li class="headline">会社概要</li></a>
+					<li class="headline"><a href="index.html">会社概要</a></li>
 				</ol>
 
 				<ol>
-					<li class="headline">物件一覧</li>
-					<li>ロイヤルユタカ</li>
-					<li>My2レジデンス</li>
-					<li>モータープール花川</li>
+					<li class="headline"><a href="index.html#rent">物件一覧</a></li>
+					<li><a href="index.html#ry">ロイヤルユタカ</a></li>
+					<li><a href="index.html#mr">My2レジデンス</a></li>
+					<li><a href="index.html#mh">モータープール花川</a></li>
 				</ol>
 
 				<ol>
-					<li class="headline">お役立ち情報</li>
-					<li>新着情報</li>
-					<li>空き物件情報</li>
+					<li class="headline"><a href="index.html#topics">お役立ち情報</a></li>
+					<li><a href="top.html#in">新着情報</a></li>
+					<li><a href="top.html#n">空き物件情報</a></li>
 				</ol>
 
 				<ol>
-					<li class="headline">お問い合わせ</li>
+					<li class="headline"><a href="index.html#contact">お問い合わせ</a></li>
 				</ol>
 				
 				<ol>

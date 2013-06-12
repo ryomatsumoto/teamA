@@ -84,7 +84,12 @@ div#head {
 
 div#company{
 	color: #50504f;
-	
+	padding-top: 50px;
+}
+#company h2 {
+	padding:7px 0px 5px 40px;
+/*	margin-top: 40px; */
+	background: url('image/icon/icon4.png') no-repeat left
 }
 div#company dl{
 	color: 50504f;
@@ -178,8 +183,18 @@ div.bukken li{
 
 
 /*--------------お役立ち情報--------------*/
+#topics h2 {
+	padding:7px 0px 5px 40px;
+/*	margin-top: 40px; */
+	background: url('image/icon/icon4.png') no-repeat left
+}
 
 /*--------------お問い合わせ--------------*/
+#contact h2 {
+	padding:7px 0px 5px 40px;
+/*	margin-top: 40px; */
+	background: url('image/icon/icon4.png') no-repeat left
+}
 
 /*--------------フッター--------------*/
 #footer_wrap {
