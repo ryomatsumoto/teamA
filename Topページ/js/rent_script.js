@@ -11,6 +11,14 @@ $(function(){
 });
 
 $(function(){
+	$('#mapbtn01').hover(function(){
+		$(this).css('background-image','url("image/button/supermarket_on.png")')
+	}),
+	$('#mapbtn01').mouseout(function(){
+		$(this).css('background-image','url("image/button/supermarket_off.png")')
+	});
+});
+$(function(){
 	$('#mapbtn02').hover(function(){
 		$(this).css('background-image','url("image/button/station_on.png")')
 	}),
