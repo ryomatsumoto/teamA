@@ -29,7 +29,7 @@ body {
 #header li{
 	padding-left: 10px;
 	margin: 0px 15px;
-	background: url('image/list_img.png') no-repeat left;
+	background: url('image/icon/list_img.png') no-repeat left;
 	float: left;
 }
 #header dl {
@@ -71,6 +71,10 @@ h2 {
 	margin-top: 75px;
 	margin-left: 60px;
 }
+h2 {
+	padding: 5px 0px 0px 40px;
+	background: url('image/icon/icon2.png') no-repeat left;
+}
 
 
 h3 {
@@ -95,7 +99,7 @@ div#sitemap1 ul {
 	margin-top: 20px;
 	margin-left: 40px;
 	margin-bottom: 80px;
-	list-style-image: url("./image/list_mark.png");
+	list-style-image: url("./image/icon/list_mark.png");
 }
 
 
@@ -107,12 +111,12 @@ div#sitemap2 {
 
 
 .ichiran{
-	list-style-image: url("./image/list_img2.png");
+	list-style-image: url("./image/icon/list_img2.png");
 	padding-bottom: 20px;
 }
 .list {
 	padding: 10px 0px 10px 25px;
-	background: url('image/list_mark.png') no-repeat left;
+	background: url('image/icon/list_mark.png') no-repeat left;
 }
 
 
