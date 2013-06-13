@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 * {
 	margin: 0px;
 	padding: 0px;
@@ -51,6 +51,10 @@ body {
 	font-size: 0.8em;
 	font-family: Impact,Charcoal;
 }
+img {
+	border: none;
+}
+
 /*--------------グローバルナビ--------------*/
 #g_navi {
 	overflow: hidden;
